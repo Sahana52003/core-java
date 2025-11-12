@@ -16,6 +16,8 @@ public class Main {
         System.out.println(States.DELHI.toString());
         System.out.println(States.ANDHRA_PRADESH.getCompanies());
         System.out.println(States.ANDHRA_PRADESH.getCity());
+        System.out.println(States.MADHYA_PRADESH.getCity());
+        System.out.println(States.MADHYA_PRADESH.getCompanies());
         
     }
 }

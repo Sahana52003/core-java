@@ -15,7 +15,7 @@ public enum States {
     TAMIL_NADU("Chennai", "Zoho"),
     TELANGANA("Hyderabad", "Microsoft"),
     UTTAR_PRADESH("Noida", "HCL"),
-    WEST_BENGAL("Kolkata", "Wipro");
+    WEST_BENGAL("Kolkata", "wipro");
 
     public String city;
     public String companies;
