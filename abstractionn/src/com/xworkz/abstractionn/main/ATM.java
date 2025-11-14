@@ -7,4 +7,3 @@ public abstract class ATM {
     public abstract void processTransaction();
     public abstract void accountStatus();
 }
-

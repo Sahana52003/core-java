@@ -27,5 +27,4 @@ public class AC extends AirConditioner {
     public void activateMode() {
         System.out.println("activated to save energy.");
     }
-
 }

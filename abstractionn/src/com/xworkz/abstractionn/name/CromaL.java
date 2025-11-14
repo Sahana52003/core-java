@@ -27,5 +27,4 @@ public class CromaL extends Microwave {
     public void off() {
         System.out.println("turned off ");
     }
-
 }

@@ -27,5 +27,4 @@ public class TPLRouter extends Router {
     public void showStatus() {
         System.out.println("shows status of this router");
     }
-
 }

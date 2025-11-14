@@ -22,4 +22,4 @@ public  class  Bank extends ATM {
        public void accountStatus() {
             System.out.println("shwoing status of amt balance");
         }
-    }
+}
