@@ -11,7 +11,16 @@ public abstract class AirConditioner {
 
     public abstract void activateMode();
 
+    public boolean isAvailable;
+    public AirConditioner(boolean isAvailable){
+        this();
+        this.isAvailable=isAvailable;
+        System.out.println("is available in online " + isAvailable);
+    }
 
+    public AirConditioner(){
+        System.out.println("AirConditioner ");
+    }
     public static void checkstatus(){
         System.out.println("It starts coooling");
     }
@@ -23,4 +32,5 @@ public abstract class AirConditioner {
     public void incTemperature(){
         System.out.println("either can incr or decrase the temperature");
     }
+
 }

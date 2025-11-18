@@ -3,6 +3,10 @@ package com.xworkz.abstractionn.name;
 import com.xworkz.abstractionn.main.Projector;
 
 public class EpsonPj extends Projector {
+
+    public EpsonPj(float value) {
+        super(value);
+    }
     @Override
     public void powerOn() {
         System.out.println("powered on to display");

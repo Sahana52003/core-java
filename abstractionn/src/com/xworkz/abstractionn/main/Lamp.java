@@ -12,6 +12,16 @@ public abstract class Lamp {
     public abstract void brightness();
 
 
+
+    public String name;
+    public Lamp(String name){
+        this();
+        this.name=name;
+        System.out.println("name of the lamp is " + name);
+    }
+    public Lamp(){
+        System.out.println("turn on or turn off ");
+    }
     public static void blink() {
         System.out.println("Lamp is blinking");
     }

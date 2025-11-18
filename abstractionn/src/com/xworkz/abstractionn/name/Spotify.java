@@ -3,6 +3,9 @@ package com.xworkz.abstractionn.name;
 import com.xworkz.abstractionn.main.Music;
 
 public class Spotify extends Music {
+    public Spotify(int price) {
+        super(price);
+    }
     @Override
     public void play() {
         System.out.println("Playing favorite song.");

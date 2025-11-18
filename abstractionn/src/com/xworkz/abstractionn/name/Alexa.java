@@ -3,7 +3,9 @@ package com.xworkz.abstractionn.name;
 import com.xworkz.abstractionn.main.Speaker;
 
 public class Alexa extends Speaker {
-
+    public  Alexa(boolean isQuality) {
+        super(isQuality);
+    }
     @Override
     public void wakeWord() {
 

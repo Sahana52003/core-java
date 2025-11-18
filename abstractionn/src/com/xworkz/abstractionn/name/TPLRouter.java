@@ -3,6 +3,10 @@ package com.xworkz.abstractionn.name;
 import com.xworkz.abstractionn.main.Router;
 
 public class TPLRouter extends Router {
+
+    public TPLRouter(String name) {
+        super(name);
+    }
     @Override
     public void turnOn() {
         System.out.println("ON");

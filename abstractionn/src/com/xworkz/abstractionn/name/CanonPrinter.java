@@ -3,6 +3,10 @@ package com.xworkz.abstractionn.name;
 import com.xworkz.abstractionn.main.Printer;
 
 public class CanonPrinter extends Printer {
+
+    public CanonPrinter(char code) {
+        super(code);
+    }
     @Override
     public void powerOn() {
         System.out.println("Turn On to print doc");

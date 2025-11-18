@@ -3,13 +3,20 @@ package com.xworkz.abstractionn.name;
 import com.xworkz.abstractionn.main.Mobile;
 
 public class Vivo extends Mobile {
+
+    public Vivo(String name) {
+        super(name);
+    }
+
     @Override
     public void powerOn() {
+
         System.out.println("opened to seee what are there /.");
     }
 
     @Override
     public void makeCall() {
+
         System.out.println("make a call");
     }
 
@@ -20,6 +27,7 @@ public class Vivo extends Mobile {
 
     @Override
     public void installApp() {
+
         System.out.println("Installing necessary apps");
     }
 

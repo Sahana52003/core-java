@@ -2,10 +2,10 @@ package com.xworkz.abstractionn.runner;
 
 import com.xworkz.abstractionn.main.*;
 import com.xworkz.abstractionn.name.*;
-
+import com.xworkz.abstractionn.abstracts.*;
 public class Abstract {
     public static void main(String[] args) {
-        ATM atm = new Bank();
+        ATM atm = new Bank(3000);
         atm.insertCard();
         atm.enterPin();
         atm.selectTransaction();
@@ -14,8 +14,10 @@ public class Abstract {
         ATM.changePin();
         atm.dispReceipt();
         atm.depositCash();
+        System.out.println("------static-------------");
+        System.out.println(BankingDevice.isSecure);
         System.out.println("===========================================");
-        Vehicle vehicle = new Car();
+        Vehicle vehicle = new Car("Suzuki");
         vehicle.addFuel();
         vehicle.brake();
         vehicle.slowDown();
@@ -24,8 +26,10 @@ public class Abstract {
         Vehicle.horn();
         vehicle.playMusic();
         vehicle.turnLight();
+        System.out.println("------static-------------");
+        System.out.println(Transportation.wheels);
         System.out.println("===========================================");
-        Computer computer = new Laptop();
+        Computer computer = new Laptop("HP");
         computer.restart();
         computer.conntectInternet();
         computer.copyFile();
@@ -34,8 +38,10 @@ public class Abstract {
         Computer.updateSystem();
         computer.runProgram();
         computer.installApp();
+        System.out.println("------static-------------");
+        System.out.println(ElectronicDevice.speed);
         System.out.println("===========================================");
-        Mobile mobile = new Vivo();
+        Mobile mobile = new Vivo("Oneplus");
         mobile.installApp();
         mobile.makeCall();
         mobile.powerOff();
@@ -44,8 +50,10 @@ public class Abstract {
         mobile.takePhoto();
         mobile.connectWifi();
         mobile.playMusic();
+        System.out.println("------static-------------");
+        System.out.println(Tablet.idNumber);
         System.out.println("===========================================");
-        Camera camera = new Niko();
+        Camera camera = new Niko(10000);
         camera.click();
         camera.focus();
         camera.powerOff();
@@ -54,8 +62,10 @@ public class Abstract {
         Camera.deleteImg();
         camera.zoom();
         camera.recordVideo();
+        System.out.println("------static-------------");
+        System.out.println(Device.deviceGrade);
         System.out.println("===========================================");
-        Music music = new Spotify();
+        Music music = new Spotify(300);
         music.nextSong();
         music.pause();
         music.stop();
@@ -64,8 +74,10 @@ public class Abstract {
         music.shuffle();
         music.repeat();
         music.setVolume();
+        System.out.println("------static-------------");
+        System.out.println(Media.duration);
         System.out.println("===========================================");
-        Printer printer = new CanonPrinter();
+        Printer printer = new CanonPrinter('U');
         printer.powerOff();
         printer.powerOn();
         printer.printDocument();
@@ -74,8 +86,10 @@ public class Abstract {
         printer.testPrint();
         printer.loadPaper();
         printer.connectWiFi();
+        System.out.println("------static-------------");
+        System.out.println(Report.number);
         System.out.println("===========================================");
-        Television television = new LGTv();
+        Television television = new LGTv(25000);
         television.powerOn();
         television.powerOff();
         television.changeChannel();
@@ -84,8 +98,10 @@ public class Abstract {
         Television.muteVolume();
         television.connectWifi();
         television.subtitles();
+        System.out.println("------static-------------");
+        System.out.println(PortableDevice.totalChannels);
         System.out.println("===========================================");
-        Machine machine = new Nescafe();
+        Machine machine = new Nescafe(false);
         machine.brew();
         machine.start();
         machine.stop();
@@ -94,8 +110,10 @@ public class Abstract {
         machine.cleanMachine();
         machine.addBeans();
         machine.addWater();
+        System.out.println("------static-------------");
+        System.out.println(MechanicalSystem.price);
         System.out.println("===========================================");
-        SmartWatch smartWatch = new AppleWatch();
+        SmartWatch smartWatch = new AppleWatch((short)65);
         smartWatch.trackSteps();
         smartWatch.call();
         smartWatch.measureHeartRate();
@@ -104,8 +122,11 @@ public class Abstract {
         SmartWatch.receiveNotification();
         smartWatch.coonectBluetooth();
         smartWatch.batteryStatus();
+        System.out.println("------static-------------");
+        System.out.println(DigitalDevice.version);
+
         System.out.println("===========================================");
-        Speaker speaker = new Alexa();
+        Speaker speaker = new Alexa(true);
         speaker.answerQuestion();
         speaker.playMusic();
         speaker.stopMusic();
@@ -114,8 +135,10 @@ public class Abstract {
         Speaker.volumeIncrease();
         speaker.setAlarm();
         speaker.connectToWifi();
+        System.out.println("------static-------------");
+        System.out.println(Audio.frequency);
         System.out.println("===========================================");
-        Microwave microwave = new CromaL();
+        Microwave microwave = new CromaL(567.54676);
         microwave.off();
         microwave.powerOn();
         microwave.setTimer();
@@ -124,8 +147,10 @@ public class Abstract {
         microwave.openDoor();
         microwave.closeDoor();
         microwave.beepSound();
+        System.out.println("------static-------------");
+        System.out.println(Electronic.heatLevel);
         System.out.println("===========================================");
-        AirConditioner airConditioner = new AC();
+        AirConditioner airConditioner = new AC(false);
         airConditioner.activateMode();
         airConditioner.setTimer();
         airConditioner.setTemperature();
@@ -134,8 +159,10 @@ public class Abstract {
         AirConditioner.checkstatus();
         airConditioner.incTemperature();
         airConditioner.showTemperature();
+        System.out.println("------static-------------");
+        System.out.println(Appliance.brand);
         System.out.println("===========================================");
-        Browser browser = new Chrome();
+        Browser browser = new Chrome("Mozilla");
         browser.bookmarkPage();
         browser.clearHistory();
         browser.closeTab();
@@ -144,8 +171,10 @@ public class Abstract {
         Browser.downloadFile();
         browser.goBack();
         browser.goForward();
+        System.out.println("------static-------------");
+        System.out.println(Application.rating);
         System.out.println("===========================================");
-        Fan fan = new BajajFan();
+        Fan fan = new BajajFan(45678989L);
         fan.decreaseSpeed();
         fan.turnOff();
         fan.turnOn();
@@ -154,8 +183,10 @@ public class Abstract {
         Fan.showingStatus();
         fan.clean();
         fan.connectApp();
+        System.out.println("------static-------------");
+        System.out.println(Gadgets.modes);
         System.out.println("===========================================");
-        Projector projector = new EpsonPj();
+        Projector projector = new EpsonPj(457689687);
         projector.muteAudio();
         projector.connectHDMI();
         projector.powerOn();
@@ -164,8 +195,10 @@ public class Abstract {
         Projector.enableWiFi();
         projector.zoomIn();
         projector.zoomOut();
+        System.out.println("------static-------------");
+        System.out.println(VisualProjection.category);
         System.out.println("===========================================");
-        Lamp lamp = new PhilipsLamp();
+        Lamp lamp = new PhilipsLamp("Electric lamp");
         lamp.brightness();
         lamp.dim();
         lamp.turnOff();
@@ -174,8 +207,10 @@ public class Abstract {
         lamp.blink();
         lamp.showStatus();
         lamp.connectRemote();
+        System.out.println("------static-------------");
+        System.out.println(LightSource.brightness);
         System.out.println("===========================================");
-        WashingMachine washingMachine = new WhirlpoopMc();
+        WashingMachine washingMachine = new WhirlpoopMc(120);
         washingMachine.startWash();
         washingMachine.rinse();
         washingMachine.turnOff();
@@ -184,8 +219,10 @@ public class Abstract {
         WashingMachine.delayStart();
         washingMachine.addDetergent();
         washingMachine.spinDry();
+        System.out.println("------static-------------");
+        System.out.println(CleaningDevice.name);
         System.out.println("===========================================");
-        Router router = new TPLRouter();
+        Router router = new TPLRouter("TPL");
         router.connectDevice();
         router.disconnectDevice();
         router.turnOff();
@@ -194,8 +231,10 @@ public class Abstract {
         Router.changePassword();
         router.connecteddevices();
         router.restart();
+        System.out.println("------static-------------");
+        System.out.println(Network.bandwidth);
         System.out.println("===========================================");
-        Refrigerator refrigerator = new SamsungRef();
+        Refrigerator refrigerator = new SamsungRef('S');
         refrigerator.cool();
         refrigerator.defrost();
         refrigerator.freeze();
@@ -204,5 +243,7 @@ public class Abstract {
         Refrigerator.powerOn();
         refrigerator.filterCheck();
         refrigerator.givesInformation();
+        System.out.println("------static-------------");
+        System.out.println(CoolingAppliance.serialNumber);
     }
 }

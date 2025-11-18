@@ -11,7 +11,15 @@ public abstract class Speaker {
 
     public abstract void shutDown();
 
-
+    public boolean isQuality;
+    public Speaker(boolean isQuality){
+        this();
+        this.isQuality=isQuality;
+        System.out.println("Quality is " + isQuality);
+    }
+    public Speaker(){
+        System.out.println("can incr or decr a volume");
+    }
     public static void volumeIncrease(){
         System.out.println("increasing the speaker volume");
     }

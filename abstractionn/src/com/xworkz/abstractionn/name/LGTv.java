@@ -3,6 +3,10 @@ package com.xworkz.abstractionn.name;
 import com.xworkz.abstractionn.main.Television;
 
 public class LGTv extends Television {
+
+    public LGTv(double price) {
+        super(price);
+    }
     @Override
     public void powerOn() {
         System.out.println("Switch on to watch a movie");

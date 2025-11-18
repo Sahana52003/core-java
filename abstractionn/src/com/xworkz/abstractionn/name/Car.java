@@ -3,6 +3,10 @@ package com.xworkz.abstractionn.name;
 import com.xworkz.abstractionn.main.Vehicle;
 
 public class Car extends Vehicle {
+
+    public Car(String name) {
+        super(name);
+    }
     @Override
    public void start(){
 

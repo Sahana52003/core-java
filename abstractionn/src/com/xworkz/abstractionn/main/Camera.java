@@ -7,6 +7,16 @@ public abstract class Camera {
     public abstract void storeImage();
     public abstract void powerOff();
 
+    public int price;
+        public Camera(int price){
+            this();
+            this.price=price;
+            System.out.println("total price of the camera is " + price);
+        }
+
+        public Camera(){
+            System.out.println("Taking pictures");
+        }
 
 
     public static void deleteImg(){

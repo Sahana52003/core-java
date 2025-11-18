@@ -3,6 +3,10 @@ package com.xworkz.abstractionn.name;
 import com.xworkz.abstractionn.main.SmartWatch;
 
 public class AppleWatch extends SmartWatch {
+
+    public AppleWatch(short storage){
+        super(storage);
+    }
     @Override
     public void trackSteps() {
         System.out.println("It can track total steps a person is walking");

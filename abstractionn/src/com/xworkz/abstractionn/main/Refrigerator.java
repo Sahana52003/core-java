@@ -7,7 +7,15 @@ public abstract class Refrigerator {
     public abstract void defrost();
     public abstract void powerOff();
 
-
+    public char name;
+    public Refrigerator(char name){
+        this();
+        this.name=name;
+        System.out.println("code is  " + name);
+    }
+    public Refrigerator(){
+        System.out.println("Can store food inside it");
+    }
     public static void powerOn(){
         System.out.println("power is on ");
     }

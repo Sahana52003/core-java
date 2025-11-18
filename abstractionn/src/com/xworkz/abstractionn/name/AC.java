@@ -3,6 +3,10 @@ package com.xworkz.abstractionn.name;
 import com.xworkz.abstractionn.main.AirConditioner;
 
 public class AC extends AirConditioner {
+    public AC(boolean isAvailable) {
+        super(isAvailable);
+    }
+
     @Override
     public void turnOn() {
         System.out.println("turned ON");
@@ -30,7 +34,7 @@ public class AC extends AirConditioner {
 
 
     @Override
-    public void showTemperature(){
+    public void showTemperature() {
         System.out.println("temperature is 25");
     }
 }

@@ -8,6 +8,16 @@ public abstract class Browser {
     public abstract void bookmarkPage();
 
 
+        public String name;
+        public Browser(String name){
+            this();
+            this.name=name;
+            System.out.println("name " + name);
+        }
+
+        public Browser(){
+            System.out.println("It gives a lot of information");
+        }
     public static void downloadFile(){
         System.out.println("downloading the files");
     }

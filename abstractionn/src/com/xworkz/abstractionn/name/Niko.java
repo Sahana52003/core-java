@@ -3,6 +3,11 @@ package com.xworkz.abstractionn.name;
 import com.xworkz.abstractionn.main.Camera;
 
 public class Niko extends Camera {
+
+    public Niko(int price){
+
+        super(price);
+    }
     @Override
     public void powerOn() {
         System.out.println("start to capture image");

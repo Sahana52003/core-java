@@ -4,6 +4,10 @@ package com.xworkz.abstractionn.name;
 import com.xworkz.abstractionn.main.Browser;
 
 public class Chrome extends Browser {
+
+    public Chrome(String name) {
+        super(name);
+    }
     @Override
     public void openTab() {
         System.out.println("Opend  a new tab or prevous ");

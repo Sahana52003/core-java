@@ -3,6 +3,10 @@ package com.xworkz.abstractionn.name;
 import com.xworkz.abstractionn.main.WashingMachine;
 
 public class WhirlpoopMc extends WashingMachine {
+
+    public WhirlpoopMc(int capacity) {
+        super(capacity);
+    }
     @Override
     public void turnOn() {
         System.out.println("Washing machine turned ON.");

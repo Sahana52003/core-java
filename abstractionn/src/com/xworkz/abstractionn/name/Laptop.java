@@ -5,6 +5,10 @@ import com.xworkz.abstractionn.main.Computer;
 import javax.jws.soap.SOAPBinding;
 
 public class Laptop extends Computer {
+
+    public Laptop(String name){
+        super(name);
+    }
     @Override
     public void open() {
         System.out.println("Opened to start");

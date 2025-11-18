@@ -3,6 +3,10 @@ package com.xworkz.abstractionn.name;
 import com.xworkz.abstractionn.main.Machine;
 
 public class Nescafe extends Machine {
+
+    public Nescafe(boolean isGood) {
+        super(isGood);
+    }
     @Override
     public void start() {
         System.out.println("started to make caffe");

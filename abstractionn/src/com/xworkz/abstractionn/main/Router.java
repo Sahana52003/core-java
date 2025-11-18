@@ -7,7 +7,15 @@ public abstract class Router {
     public abstract void disconnectDevice();
     public abstract void showStatus();
 
-
+    public String name;
+    public Router(String name){
+        this();
+        this.name=name;
+        System.out.println("name " + name);
+    }
+    public Router(){
+        System.out.println("connecting with other layers");
+    }
     public static void changePassword(){
         System.out.println("successfuly changed pssd");
     }

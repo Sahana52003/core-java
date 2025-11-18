@@ -7,6 +7,17 @@ public abstract class Machine {
     public abstract void serveCoffee();
     public abstract void stop();
 
+
+    public boolean isGood;
+    public Machine(boolean isGood){
+        this();
+        this.isGood=isGood;
+        System.out.println("can make a coffee " + isGood);
+    }
+    public Machine(){
+        System.out.println("Making coffeee");
+    }
+
     public static void cleanMachine() {
         System.out.println("Cleaning coffee machine");
     }

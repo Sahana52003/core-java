@@ -3,6 +3,10 @@ package com.xworkz.abstractionn.name;
 import com.xworkz.abstractionn.main.ATM;
 
 public  class  Bank extends ATM {
+
+    public Bank(double amount) {
+        super(amount);
+    }
       public   void insertCard() {
             System.out.println("Inserted a  card into the ATM Machine.");
         }

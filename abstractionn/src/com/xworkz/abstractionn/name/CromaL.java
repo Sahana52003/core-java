@@ -3,6 +3,10 @@ package com.xworkz.abstractionn.name;
 import com.xworkz.abstractionn.main.Microwave;
 
 public class CromaL extends Microwave {
+
+    public CromaL(double total) {
+        super(total);
+    }
     @Override
     public void powerOn() {
         System.out.println("On to make food");

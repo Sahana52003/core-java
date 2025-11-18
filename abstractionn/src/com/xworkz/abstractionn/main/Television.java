@@ -7,6 +7,15 @@ public abstract class Television {
     public abstract void decreaseVolume();
     public abstract void powerOff();
 
+    public double price;
+    public Television(double price){
+        this();
+        this.price=price;
+        System.out.println("amount of this tv " + price);
+    }
+    public Television(){
+        System.out.println("Watching movies");
+    }
     public static void muteVolume(){
 
         System.out.println("Can incr or mute the volume");

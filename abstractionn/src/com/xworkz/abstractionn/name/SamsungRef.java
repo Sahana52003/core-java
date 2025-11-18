@@ -3,6 +3,10 @@ package com.xworkz.abstractionn.name;
 import com.xworkz.abstractionn.main.Refrigerator;
 
 public class SamsungRef extends Refrigerator {
+
+    public SamsungRef(char name) {
+        super(name);
+    }
     @Override
     public void cool() {
         System.out.println("started to cool ");

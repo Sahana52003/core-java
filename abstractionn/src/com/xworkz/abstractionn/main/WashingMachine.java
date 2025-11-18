@@ -8,7 +8,15 @@ public abstract class WashingMachine {
     public abstract void turnOff();
 
 
-
+    public int capacity ;
+    public WashingMachine(int capacity){
+        this();
+        this.capacity=capacity;
+        System.out.println("their capacity " + capacity);
+    }
+    public WashingMachine(){
+        System.out.println("Wash the clothes");
+    }
     public static void delayStart() {
         System.out.println("Wash clothes will start in");
     }

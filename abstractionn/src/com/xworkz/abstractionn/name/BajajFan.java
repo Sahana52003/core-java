@@ -3,6 +3,10 @@ package com.xworkz.abstractionn.name;
 import com.xworkz.abstractionn.main.Fan;
 
 public class BajajFan extends Fan {
+
+    public BajajFan(long number) {
+        super(number);
+    }
     @Override
     public void turnOn() {
         System.out.println("turned on the Fan");

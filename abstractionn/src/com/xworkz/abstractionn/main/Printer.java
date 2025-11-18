@@ -7,7 +7,15 @@ public abstract class Printer {
     public abstract void printPhoto();
     public abstract void powerOff();
 
-
+    public char code;
+    public Printer(char code){
+        this();
+        this.code=code;
+        System.out.println("code " + code);
+    }
+    public Printer(){
+        System.out.println("taking print of my documnet");
+    }
     public static void testPrint(){
         System.out.println("Test page printed successfully");
     }

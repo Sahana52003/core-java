@@ -7,8 +7,16 @@ public abstract class ATM {
     public abstract void processTransaction();
     public abstract void accountStatus();
 
+    public double amount;
+    public ATM(double amount){
+        this();
+        this.amount=amount;
+        System.out.println("total amount in the account is " + amount);
+    }
 
-
+    public ATM(){
+        System.out.println("current balance");
+    }
 
     public static void changePin(){
         System.out.println("PIN number has been changed ");
