@@ -27,4 +27,9 @@ public class Vivo extends Mobile {
     public void powerOff() {
         System.out.println("switch of the phone");
     }
-}
+
+    @Override
+    public void playMusic() {
+        System.out.println("playing music on youtube ");
+    }
+    }

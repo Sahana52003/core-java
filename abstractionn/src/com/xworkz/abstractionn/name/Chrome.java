@@ -28,4 +28,10 @@ public class Chrome extends Browser {
     public void bookmarkPage() {
         System.out.println("make bookmark of Imp site ");
     }
+
+
+    @Override
+    public void goForward() {
+        System.out.println("can forwarded to next page or anther nxt page");
+    }
 }

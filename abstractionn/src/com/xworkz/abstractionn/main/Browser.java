@@ -6,4 +6,17 @@ public abstract class Browser {
     public abstract void refresh();
     public abstract void clearHistory();
     public abstract void bookmarkPage();
+
+
+    public static void downloadFile(){
+        System.out.println("downloading the files");
+    }
+
+    public void goBack(){
+        System.out.println("back to the previous page");
+    }
+
+    public void goForward(){
+        System.out.println("forward to the next page");
+    }
 }

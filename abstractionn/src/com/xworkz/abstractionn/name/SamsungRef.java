@@ -27,4 +27,9 @@ public class SamsungRef extends Refrigerator {
     public void powerOff() {
         System.out.println("Turn off it");
     }
+
+    @Override
+    public void givesInformation() {
+        System.out.println("gives infor what to do or keep items");
+    }
 }

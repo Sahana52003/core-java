@@ -27,4 +27,9 @@ public class WhirlpoopMc extends WashingMachine {
     public void turnOff() {
         System.out.println("turned off the machine");
     }
+
+
+    public void addDetergent() {
+        System.out.println("Adds detergent to it ");
+    }
 }

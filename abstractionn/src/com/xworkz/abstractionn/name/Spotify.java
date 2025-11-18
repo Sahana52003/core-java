@@ -27,4 +27,9 @@ public class Spotify extends Music {
     public void stop() {
         System.out.println("Can stop it");
     }
+
+    @Override
+    public void repeat() {
+        System.out.println("same song is repeted to listen");
+    }
 }

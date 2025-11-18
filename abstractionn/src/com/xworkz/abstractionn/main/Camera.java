@@ -6,4 +6,18 @@ public abstract class Camera {
     public abstract void click();
     public abstract void storeImage();
     public abstract void powerOff();
+
+
+
+    public static void deleteImg(){
+        System.out.println("deleted image from this ");
+    }
+
+    public void recordVideo(){
+        System.out.println("recording video for 3 r 5 min");
+    }
+
+    public void zoom(){
+        System.out.println("can zoom to see the pic clearly");
+    }
 }

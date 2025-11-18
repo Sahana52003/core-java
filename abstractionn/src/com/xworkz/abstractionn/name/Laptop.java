@@ -29,4 +29,8 @@ public class Laptop extends Computer {
     public void shutdown() {
         System.out.println("then completely shut down ");
     }
+    @Override
+    public void installApp(){
+        System.out.println("Install the apps through the browser");
+    }
 }

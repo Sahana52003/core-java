@@ -27,4 +27,9 @@ public class BajajFan extends Fan {
     public void remoteControl() {
         System.out.println("control through remote");
     }
+
+    @Override
+    public void connectApp(){
+        System.out.println("connected to phone to amke the fan on or fan");
+    }
 }

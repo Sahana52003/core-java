@@ -22,4 +22,9 @@ public  class  Bank extends ATM {
        public void accountStatus() {
             System.out.println("shwoing status of amt balance");
         }
+
+        @Override
+        public void depositCash(){
+            System.out.println("deposited amt is $3000");
+        }
 }

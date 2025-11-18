@@ -27,4 +27,9 @@ public class Niko extends Camera {
     public void powerOff() {
         System.out.println("after off to the camera");
     }
+
+    @Override
+    public void recordVideo(){
+        System.out.println("record video for 15 min and then edit it with songs");
+    }
 }

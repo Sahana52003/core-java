@@ -27,4 +27,9 @@ public class Nescafe extends Machine {
     public void stop() {
         System.out.println("After that it will stop");
     }
+
+    @Override
+    public void addBeans() {
+        System.out.println("coffee beans are mix well ");
+    }
 }

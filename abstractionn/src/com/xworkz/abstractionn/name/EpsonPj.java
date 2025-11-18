@@ -27,4 +27,9 @@ public class EpsonPj extends Projector {
     public void connectHDMI() {
         System.out.println("HDMI cable is connected successfully");
     }
+
+    @Override
+    public void zoomIn() {
+        System.out.println("Zoomed to see the information clearly");
+    }
 }

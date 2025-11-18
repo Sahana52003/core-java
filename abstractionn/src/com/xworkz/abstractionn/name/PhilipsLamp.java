@@ -29,4 +29,9 @@ public class PhilipsLamp extends Lamp {
         System.out.println("adjust birghtness");
     }
 
+    @Override
+    public void connectRemote() {
+        System.out.println("Lamp is connected to make on or off");
+    }
+
 }

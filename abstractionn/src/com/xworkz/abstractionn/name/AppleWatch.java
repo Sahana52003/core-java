@@ -27,4 +27,9 @@ public class AppleWatch extends SmartWatch {
     public void powerOff() {
         System.out.println("turn off to charge");
     }
+
+    @Override
+    public void batteryStatus(){
+        System.out.println("remaind to charge ,");
+    }
 }

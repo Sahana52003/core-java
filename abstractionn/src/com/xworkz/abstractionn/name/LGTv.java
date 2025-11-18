@@ -27,4 +27,10 @@ public class LGTv extends Television {
     public void powerOff() {
         System.out.println("Off the TV");
     }
+
+
+    @Override
+    public void subtitles(){
+        System.out.println("changing language to E,K,T,M");
+    }
 }

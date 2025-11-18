@@ -27,4 +27,9 @@ public class CanonPrinter extends Printer {
     public void powerOff() {
         System.out.println("off of the printer");
     }
+
+    @Override
+    public void connectWiFi(){
+        System.out.println("printing the documents,papers");
+    }
 }

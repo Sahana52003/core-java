@@ -27,4 +27,10 @@ public class AC extends AirConditioner {
     public void activateMode() {
         System.out.println("activated to save energy.");
     }
+
+
+    @Override
+    public void showTemperature(){
+        System.out.println("temperature is 25");
+    }
 }

@@ -11,6 +11,9 @@ public class Abstract {
         atm.selectTransaction();
         atm.processTransaction();
         atm.accountStatus();
+        ATM.changePin();
+        atm.dispReceipt();
+        atm.depositCash();
         System.out.println("===========================================");
         Vehicle vehicle = new Car();
         vehicle.addFuel();
@@ -18,6 +21,9 @@ public class Abstract {
         vehicle.slowDown();
         vehicle.start();
         vehicle.stop();
+        Vehicle.horn();
+        vehicle.playMusic();
+        vehicle.turnLight();
         System.out.println("===========================================");
         Computer computer = new Laptop();
         computer.restart();
@@ -25,6 +31,9 @@ public class Abstract {
         computer.copyFile();
         computer.open();
         computer.shutdown();
+        Computer.updateSystem();
+        computer.runProgram();
+        computer.installApp();
         System.out.println("===========================================");
         Mobile mobile = new Vivo();
         mobile.installApp();
@@ -32,6 +41,9 @@ public class Abstract {
         mobile.powerOff();
         mobile.sendMessage();
         mobile.powerOn();
+        mobile.takePhoto();
+        mobile.connectWifi();
+        mobile.playMusic();
         System.out.println("===========================================");
         Camera camera = new Niko();
         camera.click();
@@ -39,6 +51,9 @@ public class Abstract {
         camera.powerOff();
         camera.powerOn();
         camera.storeImage();
+        Camera.deleteImg();
+        camera.zoom();
+        camera.recordVideo();
         System.out.println("===========================================");
         Music music = new Spotify();
         music.nextSong();
@@ -46,6 +61,9 @@ public class Abstract {
         music.stop();
         music.play();
         music.previousSong();
+        music.shuffle();
+        music.repeat();
+        music.setVolume();
         System.out.println("===========================================");
         Printer printer = new CanonPrinter();
         printer.powerOff();
@@ -53,6 +71,9 @@ public class Abstract {
         printer.printDocument();
         printer.scanDocument();
         printer.printPhoto();
+        printer.testPrint();
+        printer.loadPaper();
+        printer.connectWiFi();
         System.out.println("===========================================");
         Television television = new LGTv();
         television.powerOn();
@@ -60,6 +81,9 @@ public class Abstract {
         television.changeChannel();
         television.decreaseVolume();
         television.increaseVolume();
+        Television.muteVolume();
+        television.connectWifi();
+        television.subtitles();
         System.out.println("===========================================");
         Machine machine = new Nescafe();
         machine.brew();
@@ -67,6 +91,9 @@ public class Abstract {
         machine.stop();
         machine.grindBeans();
         machine.serveCoffee();
+        machine.cleanMachine();
+        machine.addBeans();
+        machine.addWater();
         System.out.println("===========================================");
         SmartWatch smartWatch = new AppleWatch();
         smartWatch.trackSteps();
@@ -74,6 +101,9 @@ public class Abstract {
         smartWatch.measureHeartRate();
         smartWatch.powerOff();
         smartWatch.showTime();
+        SmartWatch.receiveNotification();
+        smartWatch.coonectBluetooth();
+        smartWatch.batteryStatus();
         System.out.println("===========================================");
         Speaker speaker = new Alexa();
         speaker.answerQuestion();
@@ -81,6 +111,9 @@ public class Abstract {
         speaker.stopMusic();
         speaker.shutDown();
         speaker.wakeWord();
+        Speaker.volumeIncrease();
+        speaker.setAlarm();
+        speaker.connectToWifi();
         System.out.println("===========================================");
         Microwave microwave = new CromaL();
         microwave.off();
@@ -88,6 +121,9 @@ public class Abstract {
         microwave.setTimer();
         microwave.startCooking();
         microwave.stopCooking();
+        microwave.openDoor();
+        microwave.closeDoor();
+        microwave.beepSound();
         System.out.println("===========================================");
         AirConditioner airConditioner = new AC();
         airConditioner.activateMode();
@@ -95,6 +131,9 @@ public class Abstract {
         airConditioner.setTemperature();
         airConditioner.turnOff();
         airConditioner.turnOn();
+        AirConditioner.checkstatus();
+        airConditioner.incTemperature();
+        airConditioner.showTemperature();
         System.out.println("===========================================");
         Browser browser = new Chrome();
         browser.bookmarkPage();
@@ -102,6 +141,9 @@ public class Abstract {
         browser.closeTab();
         browser.refresh();
         browser.openTab();
+        Browser.downloadFile();
+        browser.goBack();
+        browser.goForward();
         System.out.println("===========================================");
         Fan fan = new BajajFan();
         fan.decreaseSpeed();
@@ -109,6 +151,9 @@ public class Abstract {
         fan.turnOn();
         fan.increaseSpeed();
         fan.remoteControl();
+        Fan.showingStatus();
+        fan.clean();
+        fan.connectApp();
         System.out.println("===========================================");
         Projector projector = new EpsonPj();
         projector.muteAudio();
@@ -116,6 +161,9 @@ public class Abstract {
         projector.powerOn();
         projector.powerOff();
         projector.displayContent();
+        Projector.enableWiFi();
+        projector.zoomIn();
+        projector.zoomOut();
         System.out.println("===========================================");
         Lamp lamp = new PhilipsLamp();
         lamp.brightness();
@@ -123,6 +171,9 @@ public class Abstract {
         lamp.turnOff();
         lamp.turnOn();
         lamp.changeColor();
+        lamp.blink();
+        lamp.showStatus();
+        lamp.connectRemote();
         System.out.println("===========================================");
         WashingMachine washingMachine = new WhirlpoopMc();
         washingMachine.startWash();
@@ -130,6 +181,9 @@ public class Abstract {
         washingMachine.turnOff();
         washingMachine.turnOn();
         washingMachine.speed();
+        WashingMachine.delayStart();
+        washingMachine.addDetergent();
+        washingMachine.spinDry();
         System.out.println("===========================================");
         Router router = new TPLRouter();
         router.connectDevice();
@@ -137,6 +191,9 @@ public class Abstract {
         router.turnOff();
         router.turnOn();
         router.showStatus();
+        Router.changePassword();
+        router.connecteddevices();
+        router.restart();
         System.out.println("===========================================");
         Refrigerator refrigerator = new SamsungRef();
         refrigerator.cool();
@@ -144,5 +201,8 @@ public class Abstract {
         refrigerator.freeze();
         refrigerator.powerOff();
         refrigerator.setTemperature();
+        Refrigerator.powerOn();
+        refrigerator.filterCheck();
+        refrigerator.givesInformation();
     }
 }
