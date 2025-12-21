@@ -6,6 +6,8 @@ public class Alexa extends Speaker {
     public  Alexa(boolean isQuality) {
         super(isQuality);
     }
+
+
     @Override
     public void wakeWord() {
 

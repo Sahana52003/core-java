@@ -7,7 +7,7 @@ public interface Payment {
     char code = 'S';
     long phoneNumber = 334452566L;
 
-    void pay();
+     void pay();
 
     void cancel();
 
