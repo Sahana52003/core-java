@@ -1,0 +1,76 @@
+package com.xworkz.inheritances.main;
+
+import com.xworkz.inheritances.external.*;
+
+public class HierarcicalInheritance {
+    public static void main(String[] args) {
+        Bus bus=new Bus();
+        bus.startEngine();
+        bus.stopEngine();
+        bus.cleanBus();
+        bus.onLights();
+        bus.honk();
+        bus.start();
+        bus.stop();
+        bus.fuel();
+        bus.speed();
+        bus.transport();
+        Car car=new Car();
+        car.open();
+        car.playMusic();
+        car.airConditioning();
+        car.numberOfDoors();
+        car.carType();
+        bus.start();
+        bus.stop();
+        bus.fuel();
+        bus.speed();
+        bus.transport();
+        System.out.println("===============");
+        CreditCard creditCard=new CreditCard();
+        creditCard.validateCard();
+        creditCard.cardLimits();
+        creditCard.charges();
+        creditCard.process();
+        creditCard.details();
+        creditCard.login();
+        creditCard.verifyUser();
+        creditCard.balance();
+        creditCard.credit();
+        creditCard.receipt();
+        UPI upi=new UPI();
+        upi.login();
+        upi.verifyUser();
+        upi.balance();
+        upi.credit();
+        upi.receipt();
+        upi.scanCode();
+        upi.sendMoney();
+        upi.requestMoney();
+        upi.enterUPIID();
+        upi.sendQRCode();
+        System.out.println("===============");
+        OnlineShopping onlineShopping=new OnlineShopping();
+        onlineShopping.applyCoupon();
+        onlineShopping.trackOrder();
+        onlineShopping.address();
+        onlineShopping.schedule();
+        onlineShopping.details();
+        onlineShopping.items();
+        onlineShopping.addToCart();
+        onlineShopping.delete();
+        onlineShopping.payment();
+        onlineShopping.feedback();
+        OfflineShopping offlineShopping=new OfflineShopping();
+        offlineShopping.items();
+        offlineShopping.addToCart();
+        offlineShopping.delete();
+        offlineShopping.payment();
+        offlineShopping.feedback();
+        offlineShopping.checkOffers();
+        offlineShopping.askAssistance();
+        offlineShopping.tryProducts();
+        offlineShopping.homeDelivery();
+        offlineShopping.getBill();
+    }
+}
