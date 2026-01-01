@@ -2,13 +2,21 @@ package com.xworkz.program.main;
 
 public class Palindrome {
 
-    public void Palindrome(int number){
-        while (number>0){
-       int nur=number%10;//1
-      int  reverse=reverse*10+nur;//0*10+1=1-==1
-      int  n=number/10;
-   }
-    public static void main(String[] args){
+    public   Palindrome(int number){
+        int num=number;
+        int reverse=0;
+        while (number>0) {
+            int digit=number%10;//1
+             reverse=reverse * 10 + digit;//0*10+1=1-==1
+             number=number/10;
+        }
+            if (num==reverse){
+                System.out.println("Paindrme");
+            }else {
+                System.out.println("Nt paindrme");
+            }
+        }
+
 //    int n=121;
 //    int num=n;
 //    int reverse=0;
@@ -22,9 +30,10 @@ public class Palindrome {
 //}else {
 //            System.out.println("Nt paindrme");
 //        }
-//    }
-//}
-            int reverse = 0;
-        }
+//        }
+        public static void main(String[] args){
+        int number=121;
+       Palindrome pal=new Palindrome(number);
+
     }
 }

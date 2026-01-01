@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/checkstatus/checkstatus.iml" filepath="$PROJECT_DIR$/checkstatus/checkstatus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/city/city.iml" filepath="$PROJECT_DIR$/city/city.iml" />
+      <module fileurl="file://$PROJECT_DIR$/country/country.iml" filepath="$PROJECT_DIR$/country/country.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customexception.iml" filepath="$PROJECT_DIR$/customexception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/name/name.iml" filepath="$PROJECT_DIR$/name/name.iml" />
+      <module fileurl="file://$PROJECT_DIR$/otpgenerate/otpgenerate.iml" filepath="$PROJECT_DIR$/otpgenerate/otpgenerate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment/payment.iml" filepath="$PROJECT_DIR$/payment/payment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/temperature/temperature.iml" filepath="$PROJECT_DIR$/temperature/temperature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/validation/validation.iml" filepath="$PROJECT_DIR$/validation/validation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vehicle/vehicle.iml" filepath="$PROJECT_DIR$/vehicle/vehicle.iml" />
+    </modules>
+  </component>
+</project>
