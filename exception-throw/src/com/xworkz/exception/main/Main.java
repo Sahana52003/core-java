@@ -13,7 +13,8 @@ public class Main {
         System.out.println("Execute");
         try {
             run();
-        }catch (Exception e){System.out.println("Doesn't Executed");
+        }catch (Nandu e){System.out.println("Doesn't Executed"+e.getMessage());
+            e.printStackTrace();
     }
     }
     public static void run() throws Nandu{
