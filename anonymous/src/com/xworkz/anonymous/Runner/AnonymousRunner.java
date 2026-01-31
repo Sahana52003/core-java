@@ -36,13 +36,13 @@ public class AnonymousRunner {
 
 
 //Lambda Expression
-//        Bank bank = () -> true;
-//        Bank bank1=()->false;
-//        Boolean aBoolean= bank.checkBalance();
-//        System.out.println(aBoolean);
-//        Boolean ab=bank1.checkBalance();
-//        System.out.println(ab);
-//    }
-//
-//
+        Bank bank = () -> true;
+        Bank bank1=()->false;
+        Boolean aBoolean= bank.checkBalance();
+        System.out.println(aBoolean);
+        Boolean ab=bank1.checkBalance();
+        System.out.println(ab);
+    }
+
+
 //}

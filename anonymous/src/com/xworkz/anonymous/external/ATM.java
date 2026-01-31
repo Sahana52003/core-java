@@ -7,11 +7,11 @@ public class ATM implements Bank {
     public void deposit() {
         System.out.println("Amount is deposited");
     }
-
-    @Override
-    public void withdrawAmount() {
-        System.out.println("Withdraw amount");
-    }
+//
+//    @Override
+//    public void withdrawAmount() {
+//        System.out.println("Withdraw amount");
+//    }
 
     public static void main(String[] args) {
         Bank bank=new ATM();
