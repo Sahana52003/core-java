@@ -15,7 +15,7 @@ public class Bottle {
         list.add(828.123F);
         list.add(678.12435678F);
         list.add(456.232F);
-        list.add(67342387.1234567F);
+        //list.add(67342387.1234567F);
         list.add(234.1223f);
         list.add(453.1F);
         list.add(433.F);
@@ -43,7 +43,7 @@ public class Bottle {
 //        arrayList.add(433.F);
 //        arrayList.add(5678982F);
         System.out.println(arrayList);
-        System.out.println(arrayList.addAll(list));
+       // System.out.println(arrayList.addAll(list));
         System.out.println("Using addALl : "+arrayList);
         System.out.println("Using contains : " + arrayList.contains(56789.23F));
         System.out.println("Using equals : " + list.equals(arrayList));

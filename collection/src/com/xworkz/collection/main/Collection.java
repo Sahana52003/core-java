@@ -49,14 +49,14 @@ public class Collection {
 //        System.out.println("Using hashcode of list1 : " + list1.hashCode());
         //System.out.println("Using removeAll : " + list1.removeAll(list));
         System.out.println(list1);
-        //System.out.println("Using retainsAll : " + list.retainAll(list1));
+        System.out.println("Using retainsAll : " + list.retainAll(list1));
         for (Integer total:list) {
             System.out.println(total);
         }
         System.out.println("====================");
         Iterator<Integer> iterator = list1.iterator();
         while (iterator.hasNext()) {
-            Integer integer=iterator.next();
+            Integer integer = iterator.next();
             if (integer == 250) {
                 iterator.remove();
             }
