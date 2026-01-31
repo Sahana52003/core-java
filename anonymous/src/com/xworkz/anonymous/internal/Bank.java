@@ -2,9 +2,9 @@ package com.xworkz.anonymous.internal;
 
 @FunctionalInterface
 public interface Bank {
-    void deposit();
+    //void deposit();
 //   // public abstract void withdrawAmount();
-    public abstract void checkBalance();
+    public abstract Boolean checkBalance();
 
 }
 

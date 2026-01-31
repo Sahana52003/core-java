@@ -21,28 +21,27 @@ public class AnonymousRunner {
 
 
 // Lambda Expression
-        Bank bank = () -> {
-            System.out.println("States the current Balance");
-        };
-        bank.checkBalance();
-
-        Bank bank1 = () -> {
-            System.out.println("States the current Balance");
-        };
-        bank1.checkBalance();
-    }
-}
-
+//        Bank bank = () -> {
+//            System.out.println("States the current Balance");
+//        };
+//        bank.checkBalance();
+//
+//        Bank bank1 = () -> {
+//            System.out.println("States the current Balance");
+//        };
+//        bank1.checkBalance();
+//    }
+//}
 
 
 //Lambda Expression
         Bank bank = () -> true;
-        Bank bank1=()->false;
-        Boolean aBoolean= bank.checkBalance();
+        Bank bank1 = () -> false;
+        Boolean aBoolean = bank.checkBalance();
         System.out.println(aBoolean);
-        Boolean ab=bank1.checkBalance();
+        Boolean ab = bank1.checkBalance();
         System.out.println(ab);
     }
-
+}
 
 //}
