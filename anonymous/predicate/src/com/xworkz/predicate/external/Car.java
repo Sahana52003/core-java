@@ -10,5 +10,4 @@ public class Car {
         System.out.println(isEven.test(3));
         System.out.println(isEven.test(8));
     }
-
 }
