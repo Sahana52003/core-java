@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/anonymous.iml" filepath="$PROJECT_DIR$/anonymous.iml" />
+      <module fileurl="file://$PROJECT_DIR$/predicate/predicate.iml" filepath="$PROJECT_DIR$/predicate/predicate.iml" />
     </modules>
   </component>
 </project>
